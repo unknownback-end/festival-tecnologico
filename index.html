@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria de Ciencia y Tecnología</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Feria de Ciencia y Tecnología</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#expositores">Expositores</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Entradas</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Feria de Ciencia y Tecnología</h2>
+                <p>Octubre 2026, lima, peru</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/tecnologia.mp4" type="video/mp4" />
+            <source src="video/tecnologia.ogv" type="video/ogg" />
+            <source src="video/tecnologia.webm" type="video/webm" />
+        </video>
+    </div>
+
+    <section class="sobre-festival">
+        <div class="imagen">
+            <img src="src/img/imagen_dj.jpg" alt="Sobre la Feria" />
+        </div>
+
+        <div class="contenido-feria">
+            <h2>Feria de Ciencia y Tecnología</h2>
+            <p class="fecha">Octubre 2026, CDMX, México</p>
+            <p>Descubre lo último en innovación tecnológica, avances científicos y startups revolucionarias. Únete a
+                talleres, exposiciones interactivas y charlas impartidas por expertos en ciencia y tecnología.</p>
+        </div>
+    </section>
+
+    <section id="expositores" class="expositores">
+        <h3>Expositores</h3>
+
+        <p class="dia">Viernes 21</p>
+        <div class="escenarios-contenedor">
+            <div class="escenario bg-azul">
+                <p class="nombre-escenario">Innovación Tecnológica</p>
+
+                <ul class="calendario">
+                    <li>
+                        10:00 | <span>Robótica y Automatización</span>
+                    </li>
+                    <li>
+                        12:00 | <span>Inteligencia Artificial</span>
+                    </li>
+                    <li>
+                        14:00 | <span>Vehículos Autónomos</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Impresión 3D</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="escenario bg-verde">
+                <p class="nombre-escenario">Ciencias del Futuro</p>
+
+                <ul class="calendario">
+                    <li>
+                        10:00 | <span>Exploración Espacial</span>
+                    </li>
+                    <li>
+                        12:00 | <span>Energías Renovables</span>
+                    </li>
+                    <li>
+                        14:00 | <span>Genética y Biotecnología</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Nanotecnología</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h3>Galería</h3>
+
+        <div class="galeria-imagenes"></div>
+    </section>
+
+    <section id="boletos" class="contenedor-boletos">
+        <h3>Entradas</h3>
+
+        <div class="boletos">
+            <div class="pase">
+                <p class="pase-nombre">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a todas las exposiciones</li>
+                        <li>Asistencia a talleres</li>
+                        <li>Certificado de Participación</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$150</p>
+                </footer>
+            </div>
+            <div class="pase">
+                <p class="pase-nombre">Pase 2 Días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a todas las exposiciones</li>
+                        <li>Asistencia a talleres avanzados</li>
+                        <li>Certificado de Participación</li>
+                        <li>Zona VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$250</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Feria de Ciencia y Tecnología. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
